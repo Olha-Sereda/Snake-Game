@@ -6,3 +6,5 @@ Applicaton requirements:
  - Use Microsoft Visual Studio to compile the project.
  - Open Snake-Doxygen by Doxygenwisard - to compile the documentation
 
+bin/ contains the binary file with dll libraries.
+
