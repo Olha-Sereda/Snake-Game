@@ -1,0 +1,24 @@
+\hypertarget{game__map_8hpp_source}{}\doxysection{game\+\_\+map.\+hpp}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <cmath>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{class_game_map}{GameMap}} : \textcolor{keyword}{public} sf:: Drawable}
+\DoxyCodeLine{18 \{}
+\DoxyCodeLine{19 \textcolor{keyword}{public}:}
+\DoxyCodeLine{24     \mbox{\hyperlink{class_game_map_a2b126e9ee4d5a7c7acdcc022adfca7e0}{GameMap}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{32     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_map_aaab6691be05ce9403d2b798a572b445c}{draw}}(sf::RenderTarget\&, sf::RenderStates) \textcolor{keyword}{const};}
+\DoxyCodeLine{37     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_game_map_a4998db64ed25e964c55851079fb52d49}{check\_intersection\_with\_circle}}(sf::FloatRect);}
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_map_a3b296c89e6b4bfb0b2e6a5912d072fcf}{add\_wall}}(sf::FloatRect);}
+\DoxyCodeLine{46     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_map_a364c56efdf9551e5c48b0245e1623b28}{reset}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{47 \textcolor{keyword}{private}:}
+\DoxyCodeLine{48     std::vector <sf::FloatRect> \mbox{\hyperlink{class_game_map_a85e1ce53d61a429a84c1defbc0bf18af}{walls}}; }
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50 \};}
+
+\end{DoxyCode}
