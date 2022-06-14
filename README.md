@@ -8,3 +8,5 @@ Applicaton requirements:
 
 bin/ contains the binary file with dll libraries.
 
+Documentation is in documentation/html/index.html
+
